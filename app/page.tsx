@@ -22,7 +22,7 @@ export default async function Home() {
       <section className="text-center font-bold text-lg">
         CASH FLOW
       </section>
-      <HeaderButtons />
+      <HeaderButtons transactions={transactions} />
       <section className="overflow-x-auto space-y-5">
         <table className="table-auto w-full">
           <thead className="bg-zinc-800 border">

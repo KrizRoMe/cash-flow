@@ -20,7 +20,7 @@ enum TransactionType {
   EXPENSE = 'expense'
 }
 
-function TransactionBody({transaction} : {transaction: Transaction}){
+function TransactionBody({transaction} :{transaction: Transaction}){
   const router = useRouter();
   const [transactionUpdated, setTransactionUpdated] = useState<Transaction>(transaction);
   const [transactionSelected, setTransactionSelected] = useState<number | null>(null);
