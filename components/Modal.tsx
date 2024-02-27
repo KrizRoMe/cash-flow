@@ -53,7 +53,7 @@ function Modal({ isOpen, onClose, transactionType }: ModalProps) {
                             <select name="payment_method" id="payment_method" className="rounded-md border-0 p-2 bg-zinc-800 w-full" defaultValue="" required>
                                 <option value="">Seleccione M.Pago</option>
                                 <option value="cash">Efectivo</option>
-                                <option value="yape">Yape</option>
+                                <option value="virtual">Virtual</option>
                             </select>
                         </div>
                         <div>
